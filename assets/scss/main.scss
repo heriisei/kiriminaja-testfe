@@ -1,0 +1,20 @@
+:root {
+  --main-brand-color-darker: rgba(70,49,124,1);
+  --main-brand-color: rgba(78,55,139,1);
+  --main-brand-color-90: rgba(78,55,139,0.9);
+  --main-brand-color-80: rgba(78,55,139,0.8);
+  --main-brand-color-70: rgba(78,55,139,0.7);
+  --main-brand-color-60: rgba(78,55,139,0.6);
+  --main-brand-color-50: rgba(78,55,139,0.5);
+  --main-brand-color-40: rgba(78,55,139,0.4);
+  --main-brand-color-30: rgba(78,55,139,0.3);
+  --main-brand-color-20: rgba(78,55,139,0.2);
+  --main-brand-color-10: rgba(78,55,139,0.1);
+  --dark: #1c1b1f;
+  --light: #fff;
+}
+
+body {
+  background-color: var(--dark);
+  color: var(--light);
+}

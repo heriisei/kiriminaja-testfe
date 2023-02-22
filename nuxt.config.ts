@@ -18,4 +18,8 @@ export default defineNuxtConfig({
 			transformerVariantGroup()
 		],
   },
+  css: [
+    "@unocss/reset/tailwind.css",
+    "assets/scss/main.scss"
+  ]
 })
