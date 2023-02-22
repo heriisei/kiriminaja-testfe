@@ -1,6 +1,5 @@
 <template>
   <div>
-    KiriminAja
-    <NuxtPage />
+    hai
   </div>
 </template>

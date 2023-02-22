@@ -1,6 +1,5 @@
 <template>
   <div>
-    KiriminAja
-    <NuxtPage />
+    about
   </div>
 </template>
