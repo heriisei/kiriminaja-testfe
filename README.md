@@ -1,5 +1,14 @@
 # Nuxt 3 Minimal Starter
 
+## Project Description
+
+This project applies a service pattern, with these details:
+- API Mock: using Nuxt `server/api` module. ([Docs](https://nuxt.com/docs/guide/directory-structure/server))
+- Services: store the API data controller from the `services` (extend from plugins) directory, then it is imported into the `plugins/service` plugin. ([Docs](https://nuxt.com/docs/guide/directory-structure/plugins))
+- State Management: using Pinia to handle the invocation of the services. 
+
+---
+
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
