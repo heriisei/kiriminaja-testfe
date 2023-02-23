@@ -11,7 +11,7 @@ export default defineEventHandler((event) => {
           'Contoh taktis digital marketing',
         ],
         slug: 'ngulik-bisnis-36',
-        img: '',
+        img: '/images/kabar1.webp',
       },
       {
         id: 2,
@@ -23,7 +23,7 @@ export default defineEventHandler((event) => {
           'Hemat, aman, dan nyaman',
         ],
         slug: 'kejutan-valentine',
-        img: '',
+        img: '/images/kabar2.webp',
       },
       {
         id: 3,
@@ -35,7 +35,7 @@ export default defineEventHandler((event) => {
           'Lebih maju dan reliable',
         ],
         slug: 'cara-bisnis-online-di-2023-bikin-website-yang-bisa-kirim-paket',
-        img: '',
+        img: '/images/kabar3.webp',
       },
       {
         id: 4,
@@ -47,7 +47,7 @@ export default defineEventHandler((event) => {
           'Akademi KiriminAja untuk Bimbingan Bisnis',
         ],
         slug: 'kiriminaja-bikin-bisnis-jadi-tenang',
-        img: '',
+        img: '/images/kabar4.webp',
       },
       
       
