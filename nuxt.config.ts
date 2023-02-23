@@ -6,7 +6,9 @@ export default defineNuxtConfig({
     shim: false
   },
   modules: [
+    '@pinia/nuxt',
     '@unocss/nuxt',
+    '@inkline/nuxt'
   ],
   unocss: {
     // presets
