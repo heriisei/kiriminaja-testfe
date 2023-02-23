@@ -13,7 +13,7 @@
         </div>
       </a>
     </div>
-    <nav class="flex items-center sticky top-0 bg-$dark">
+    <nav class="flex items-center sticky top-0 bg-$dark z-10">
       <button class="p-1.25rem border-0 bg-transparent" aria-label="Menu">
         <div class="i-tabler:menu-2 text-1.5rem" aria-hidden="true"></div>
       </button>
