@@ -1,13 +1,14 @@
 <script setup lang="ts">
-// const kabar = await useFetch(`/api/kabar`, { pick: ['highlight'] })
-// const kabar = await(await $fetch(`/api/kabar`)).highlight
 const highlight = (await useNuxtApp().$kabar.getHighlight()).data.value?.highlight
 
 const activeKabar = ref(0);
 </script>
 
 <template>
-  <div>
+  <main>
+    <h1 class="sr-only">
+      Homepage
+    </h1>
     <section>
       <h2 class="sr-only">
         Kabar dan Penelusuran
@@ -67,7 +68,8 @@ const activeKabar = ref(0);
         </div>
       </article>
     </section>
-  </div>
+    <CekOngkir />
+  </main>
 </template>
 
 <style scoped>
