@@ -1,4 +1,4 @@
-import { transformerVariantGroup } from 'unocss';
+import { transformerVariantGroup, transformerDirectives } from 'unocss';
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -15,7 +15,8 @@ export default defineNuxtConfig({
     // wind: true, // enabled `@unocss/preset-wind`
     icons: true,
     transformers: [
-			transformerVariantGroup()
+			transformerVariantGroup(),
+      transformerDirectives()
 		],
   },
   css: [

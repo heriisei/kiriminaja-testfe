@@ -1,6 +1,6 @@
 <template>
-  <header>
-    <div class="px-.75rem py-.625rem text-.9rem">
+  <header class="contents">
+    <div class="px-.75rem py-.625rem text-.9rem bg-#00000040">
       <a href="#" class="flex justify-between items-center">
         <span>
           #TwogetherStronger
@@ -13,7 +13,7 @@
         </div>
       </a>
     </div>
-    <nav class="flex items-center">
+    <nav class="flex items-center sticky top-0 bg-$dark">
       <button class="p-1.25rem border-0 bg-transparent" aria-label="Menu">
         <div class="i-tabler:menu-2 text-1.5rem" aria-hidden="true"></div>
       </button>
