@@ -52,6 +52,5 @@ export default defineEventHandler((event) => {
       
       
     ],
-    extra: 'extra'
   }
 })
