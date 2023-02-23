@@ -62,7 +62,7 @@ const activeKabar = ref(0);
         </div>
       </article>
     </section>
-    <CekOngkir />
+    <CekOngkir class="mt-3.5rem" />
   </main>
 </template>
 
