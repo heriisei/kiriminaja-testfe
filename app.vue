@@ -76,8 +76,7 @@
       </button>
     </nav>
   </header>
-  <div>
-    KiriminAja
+  <div class="p-.75rem">
     <NuxtPage />
   </div>
 </template>
